@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url(magical-nighttime-landscape-with-sparkly-lights.jpg) no-repeat
+    center;
+  background-size: cover;
+}
+header {
+  height: 6%;
+  background-color: #27262c;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+.block-link {
+  display: block;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  /* padding: 4px; */
+  margin: 4px 10px;
+  position: relative;
+}
+/* Стили для выпадающего меню */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  /* Дополнительные стили для оформления выпадающего меню */
+}
+
+/* Стили для показа выпадающего меню при наведении */
+.menu-item:hover .dropdown-content {
+  display: block;
+}
+
+/* Стили для ссылок в выпадающем меню */
+/* Стили для выпадающего меню */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  /* Дополнительные стили для оформления выпадающего меню */
+}
+
+/* Стили для показа выпадающего меню при наведении */
+.menu-item:hover .dropdown-content {
+  display: block;
+}
+
+/* Стили для ссылок в выпадающем меню */
+.dropdown-content a {
+  display: block;
+  /* Дополнительные стили для ссылок внутри выпадающего меню */
+}
